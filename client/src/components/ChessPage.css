@@ -1,0 +1,62 @@
+.chess-main-play {
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 26%;
+    color: #14665f;
+    transition: 1s;
+    border: 2px solid #0d4742;
+    margin-top: 100px;
+    font-weight: bolder;
+}
+.chess-main-img{
+    background-image: url(../images/chess2.jpg);
+    background-size: 100% 100%;
+   
+
+}
+.chess-main-content{
+    background-color: #575e5d63;
+    backdrop-filter: blur(10px);
+    padding-top: 50px;
+    padding-bottom: 250px;
+   
+}
+
+
+.chess-main-track{
+    font-size: 20px;
+    background-color: #4bdbcf00;
+    border-radius: 5px;
+    padding:10px;
+    color: #09332f;
+    transition: 1s;
+    margin-top:100px;
+    border:2px solid #0d4742;
+    font-weight: bolder;
+}
+.chess-modal-title{
+   
+    padding-top: 50px;
+   color:#26ada2;
+
+}
+.chess-modal-data{
+    text-align: center;
+    color:#7c8584;
+    font-size:20px
+}
+
+.chess-note p {
+    color: darkred;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 200px;
+    padding: 30px;
+    border: 2px solid darkred;
+}
+

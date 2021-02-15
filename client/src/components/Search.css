@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+.search-find-fonts {
+    font-family: 'Press Start 2P';
+    font-size: 30px;
+}
+
+.search-size {
+    width: 100%;
+}
+.bg-search{
+    background-image: url("../images/console2.jpg");
+    padding-bottom: 80px;
+    background-size: 100% 100%;
+    padding-bottom: 160px;
+}
+
+.search-text {
+    font-size: xx-large;
+    color: rgb(92, 213, 243);
+    display: inline-block;
+}
+
+.search-display {
+    display: inline-block;
+    font-size: xx-large;
+}
+
+.search-padding {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.search-input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #42c1e0;
+    width: 80%;
+    outline: none;
+}
+
+.search-input-result {
+    padding-top: 5px;
+    margin-left: 80px;
+}
+
+.search-input-fonts {
+    color: #0f0909;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.search-input:focus {
+    border-bottom: 1px solid #47e7ec;
+}
+
+.search-black-padding {
+    margin-top: 50px;
+    padding-top: 40px;
+}
+
+.search-game-title {
+    font-family: 'Press Start 2P';
+    font-size: 14px;
+    color: white;
+    text-align: left;
+}
+
+.search-game-description {
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    color: #838b8b;
+    text-align: left;
+}
+
+.search-game-genre {
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    color: #38e2ee;
+    text-align: left;
+}
+
+.search-game-img {
+    border-radius: 10px;
+}
+
+.search-noresult {
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 15px;
+    text-shadow: 0px 2px 0px #4dd8e2, 0 0 5px #52c5e200;
+}
+
+.search-list-img {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+    .search-list-img div  {
+        
+        transition:1s
+    }
+
+        .search-list-img div:hover {
+          
+            transform: scale(1.05,1.05);
+            background-position: center;
+            background-size: cover;
+            transition:1s;
+            
+        }
+
+@media only screen and (max-width:1000px) {
+
+    .search-find-fonts {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .search-list-img img {
+        width: 80%;
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width:990px) {
+
+    .search-game-title {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .search-game-description {
+        text-align: center;
+    }
+
+    .search-game-genre {
+        text-align: center;
+    }
+}

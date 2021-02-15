@@ -1,0 +1,39 @@
+.tetris-main-play {
+    background-color:rgba(255, 255, 255, 0);
+    border:none;
+    border-radius: 5px;
+    padding:10px;
+    width:26%;
+    color:#11534c;
+    transition: 1s;
+    border:2px solid #176860;
+    margin-top:100px;
+    font-weight: bolder;
+    font-size: 20px;
+   
+}
+.tetris-main-img{
+    background-image: url(../images/tetris6.jpg);
+    background-size: 100% 100%;
+   
+
+}
+.tetris-main-content{
+    background-color: #575e5d63;
+    backdrop-filter: blur(15px);
+    padding-bottom: 250px;
+   
+}
+
+
+.tetris-main-track {
+    background-color: #4bdbcf00;
+    border-radius: 5px;
+    padding: 10px;
+    color: #0f4640;
+    transition: 1s;
+    margin-top: 100px;
+    border: 2px solid #12554e;
+    font-weight: bolder;
+    font-size: 20px; 
+}

@@ -1,0 +1,39 @@
+.a2048-main-play {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 26%;
+    color: #14665f;
+    transition: 1s;
+    border: 2px solid #0d4742;
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.a2048-main-img{
+    background-image: url(../images/2048.png);
+    background-size: 100% 100%;
+   
+
+}
+.a2048-main-content{
+    background-color: #575e5d63;
+    backdrop-filter: blur(4px);
+    padding-bottom: 250px;
+    
+   
+}
+
+
+.a2048-main-track {
+    background-color: #4bdbcf00;
+    border-radius: 5px;
+    padding: 10px;
+    color: #14665f;
+    transition: 1s;
+    margin-top: 100px;
+    border: 2px solid #0d4742;
+    font-weight: bolder;
+    font-size: 20px;
+}

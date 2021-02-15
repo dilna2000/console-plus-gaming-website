@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+.news-input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #42c1e0;
+    width: 80%;
+    outline: none;
+}
+.bg-news {
+    background-image: url("../images/bg4.jpg");
+    padding-bottom: 80px;
+    background-size: 100% 100%;
+    padding-bottom: 160px;
+}
+
+.black-news {
+    padding-top: 30px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.black1 {
+    background-image: linear-gradient(45deg, #000000 12.50%, #09090a 12.50%, #09090a 50%, #000000 50%, #000000 62.50%, #09090a 62.50%, #09090a 100%);
+    background-size: 5.66px 5.66px;
+}
+
+.news-box {
+    background-color: #76817f56;
+    margin-bottom: 3%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    border-left: 2px solid #37c9b5;
+    transition: 1s;
+}
+
+.news-loading {
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 15px;
+}
+
+.news-box:hover {
+    background-color: #2cd6bf;
+    border-left: 2px solid white;
+    transition: 1s;
+}

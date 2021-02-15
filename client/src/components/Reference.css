@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+.bg-ref {
+    background-image: url("../images/console3.jpg");
+    padding-bottom: 160px;
+    background-size: 100% 100%;
+}
+.black-ref{
+    background-image: linear-gradient(45deg, #000000 12.50%, #09090a 12.50%, #09090a 50%, #000000 50%, #000000 62.50%, #09090a 62.50%, #09090a 100%);
+    background-size: 5.66px 5.66px;
+}
+.ref-title{
+    font-family: 'Press Start 2P';
+    font-size:15px;
+    text-shadow: 1px 2px 1px #2ab19f, 0 0 2px #010303;
+    line-height: 30px;
+
+}
+.ref-for{
+    text-align: left;
+    color:white;
+    font-family: 'Press Start 2P';
+    font-size:15px;
+
+   
+}
+.ref-link{
+    text-align:center;
+    background-color: #8686946e;
+    border-radius: 5px;
+    border-left:2px solid #25b89f;
+    padding-right:100px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    color:white;
+    padding-left: 10px;
+    
+}
+.ref-link:hover{
+    color:white;
+    padding-left: 10px;
+}

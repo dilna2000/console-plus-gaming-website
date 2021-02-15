@@ -1,0 +1,9 @@
+.Hangman {
+    width: 80%;
+    
+}
+
+.hangman-bg{
+    background-image: url(../images/bg.png);
+    background-size: 100% 100%;
+}

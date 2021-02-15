@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\client",
+    "\\client\\src",
+    "\\client\\src\\components",
+    "\\client\\src\\components\\chess",
+    "\\client\\src\\components\\chess\\model",
+    "\\client\\src\\components\\connection",
+    "\\client\\src\\components\\context",
+    "\\client\\src\\components\\onboard",
+    "\\client\\src\\utils"
+  ],
+  "SelectedNode": "\\client\\src\\components\\Contact.js",
+  "PreviewInSolutionExplorer": false
+}

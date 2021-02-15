@@ -1,0 +1,12 @@
+#canvasy {
+    background-color: rgba(19, 73, 89, 0.7);
+}
+.breakout-bg{
+    background-image: url(../../../images/bg.png);
+    background-size: 100% 100%;
+}
+.gameHeader {
+    font-family: "Sedgwick Ave", cursive;
+    color: white;
+    font-size: 40px;
+}

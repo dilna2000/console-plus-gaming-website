@@ -1,0 +1,38 @@
+.hang-main-play {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 26%;
+    color: #1d867e;
+    transition: 1s;
+    border: 2px solid #167069;
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.hang-main-img{
+    background-image: url(../images/hangman.webp);
+    background-size: 100% 100%;
+   
+
+}
+.hang-main-content{
+    background-color: #575e5d63;
+    backdrop-filter: blur(7px);
+    padding-bottom: 250px;
+   
+}
+
+
+.hang-main-track {
+    background-color: #4bdbcf00;
+    border-radius: 5px;
+    padding: 10px;
+    color: #197e75;
+    transition: 1s;
+    margin-top: 100px;
+    border: 2px solid #16746c;
+    font-weight: bolder;
+    font-size: 20px;
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+.size-contact {
+    width: 100%;
+}
+
+.bg-contact {
+    background-color: lightcyan;
+    background-image: url("../images/23.jpg");
+    background-size: 100% 100%;
+    padding-bottom: 140px;
+}
+
+.boxstyle-contact {
+    background-color: #565e5e93;
+    margin: 30px;
+    border-right: 4px solid #17d8fa;
+    padding-bottom: 50px;
+    color: white;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    position: relative;
+    transition: 1s;
+}
+
+    .boxstyle-contact:hover {
+        background-color: #45ced391;
+        border-right: 4px solid white;
+        transition: 1s;
+    }
+
+.contact-fonts {
+    font-family: 'Press Start 2P';
+    color: #868888de;
+    font-size: 11px;
+}
+
+.contact-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-title {
+    display: inline-block;
+}
+
+.contact-title-btn {
+    background-color: #46dfca;
+    text-align: center;
+    width: 30%;
+    color: white;
+}
+
+.contact-black {
+    background-image: linear-gradient(45deg, #000000 12.50%, #09090a 12.50%, #09090a 50%, #000000 50%, #000000 62.50%, #09090a 62.50%, #09090a 100%);
+    background-size: 5.66px 5.66px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contact-form-heading {
+    color: #dae0e0;
+    text-align: left;
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin: 2%;
+}
+
+.contact-form-input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #42c1e0;
+    transition: 2s;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+    .contact-form-input:focus {
+        border-bottom: 2px solid #ffffff;
+        transition: 2s;
+    }
+
+.contact-form-btn {
+    width: 60%;
+    padding: 10px;
+    color: white;
+    background-color: #4bcae0;
+    border: none;
+    border-radius: 5px;
+    transition: 2s;
+    font-family: 'Press Start 2P';
+    font-size: 18px;
+}
+
+    .contact-form-btn:hover {
+        background-color: white;
+        transition: 2s;
+        color: #39d3cb;
+        font-family: 'Press Start 2P';
+        font-size: 13px;
+    }
+
+#contact-form-feedback {
+    padding-bottom: 100px;
+}
+
+@media only screen and (max-width:1000px) {
+    .contact-margin {
+        margin-bottom: 40px;
+        ;
+    }
+}
